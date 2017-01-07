@@ -39,6 +39,11 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
+  margin: 2em 0 1em 0;
+}
+
+h2 {
+  color: $col2;
 }
 
 a {
@@ -144,12 +149,9 @@ article.post {
   margin: 4em 0;
 
   h1 {
-    font: 44px "EB Garamond", serif;
-    color: #555;
-  }
-
-  h2 {
     color: $col2;
+    margin-top: 0.5em;
+    font-size: 180%;
   }
 }
 
@@ -162,7 +164,7 @@ ul.post-list {
 
   li {
     margin-left: 0;
-
+    h2 { margin-top: 0 }
   }
 }
 
@@ -176,5 +178,5 @@ ul.post-list {
     &:hover {
       text-decoration: underline;
     }
-  }  
+  }
 }
